@@ -190,3 +190,31 @@ justify-content: center;
 margin: 0 auto 15px auto;
 }
 }
+.social-links{
+display: flex;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.social-btn{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: #0f172a;
+color: #38bdf8;
+border: 1px solid #1e293b;
+padding: 10px 20px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: 500;
+transition: all 0.3s ease;
+white-space: nowrap;
+}
+.social-btn:hover{
+background-color: #38bdf8;
+color: #0f172a;
+transform: translateY(-3px);
+box-shadow: 0 5px 15px rgba(56, 189, 248, 0.2);
+}
